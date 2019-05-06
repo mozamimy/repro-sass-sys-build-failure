@@ -1,0 +1,8 @@
+[package]
+name = "repro-sass-sys-build-failure"
+version = "0.1.0"
+authors = ["mozamimy <alice@mozami.me>"]
+edition = "2018"
+
+[dependencies]
+sass-rs = { git = "https://github.com/mozamimy/sass-rs.git", branch = "debug-cpu-num" }
